@@ -1,0 +1,25 @@
+.container {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.admin {
+    width: 400px;
+    height: 250px;
+    background-color: #969bec;
+    text-align: center;
+    color: #f0eded;
+    border-radius: 10px;
+    border: 5px solid #0f1463;
+}
+.vendedor {
+    width: 250px;
+    height: 200px;
+    background-color:   #6ebdd1;    
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px; 
+}

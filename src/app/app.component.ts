@@ -10,13 +10,5 @@ import { HomeComponent } from "./pages/home/home.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Práctica 1';
-
-  verMas() {
-    alert('Ver más sobre este animal');
-  }
-
-  /* saberMas() {
-    alert('Ver más sobre los perros')
-  } */
+ 
 }
