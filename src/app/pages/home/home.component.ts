@@ -1,25 +1,22 @@
 import { Component } from '@angular/core';
 import { CardComponent } from '../../components/card/card.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent],
+  imports: [CardComponent, FormsModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  title = 'Práctica 1';
+  email: string = '';
+  password: string = '';
 
-  verMas() {
-    alert('Ver más sobre este animal');
+  login(user:string, password:string) {
+    // user será el tipó de usuario, correo, etc.
+
+    console.log(`Usuario: ${ user }\nContraseña: ${ password }`);
   }
 
-  /* saberMas() {
-    alert('Ver más sobre los perros')
-  } */
-  
-  goProducts() {
-    window.location.href = '/products';
-  }
 }

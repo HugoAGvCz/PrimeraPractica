@@ -1,12 +1,46 @@
-.btn {
-    padding: 5px 10px;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    background-color: #735E51;
-    border: none;
-    border-radius: 5px;
-    &:active {
-        background-color: #26211F;
+ .box {
+    background-color: var(--blueLight);
+    padding: 10px;
+    border-radius: 15px;;
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: center;
+        color: var(--white);
+    } 
+    input {
+        margin-top: 10px;
+        width: 90%;  
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 25px;
+        background-color: var(--orange); 
+        color: var(--white);
+        margin-bottom: 15px;  
     }
-}
+    label {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 15px; 
+        color: var(--white);
+    }
+
+    .controllers {
+        display: flex;
+        justify-content: center;
+    }
+    button {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--white);
+        border: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+        background-color: var(--blue); 
+        &:active {
+            background-color: var(--orange);
+        }
+    }
+ }
